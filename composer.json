@@ -1,0 +1,6 @@
+{
+  "require": {
+    "silex/silex": "~1.3",
+    "php-di/php-di": "^5.0"
+  }
+}
