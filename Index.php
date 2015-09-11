@@ -13,7 +13,7 @@ $app = new \Silex\Application();
 $app['debug'] = true;
 
 $app->get('/', function(){
-    return new Symfony\Component\HttpFoundation\Response("Hello world");
+    return new Symfony\Component\HttpFoundation\Response("Hello world!");
 });
 
 $app->get('/demo', function(){
