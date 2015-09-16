@@ -1,6 +1,21 @@
 {
+  "name": "Vovaxs/NetRacoon-api",
+  "description": "Created for learning purposes",
   "require": {
     "silex/silex": "~1.3",
     "php-di/php-di": "^5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vovaxs\\LabsApi\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Vovaxs\\LabsApi\\": "tests/"
+    }
   }
 }
