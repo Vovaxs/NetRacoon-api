@@ -6,10 +6,10 @@
  * Time: 20:22
  */
 
-namespace Vovaxs\NetRacoonApi\Demo;
+namespace Demo;
 
 
-class Test extends \PHPUnit_Framework_TestCase
+class DemoTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @test
