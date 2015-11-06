@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "22905b9845b1d7307c09677d124f7f91",
+    "hash": "4f39c95d015789310692d7897cd09816",
     "content-hash": "fdb8cc00efb16ab045c076aca1bd50f8",
     "packages": [
         {
@@ -36,16 +36,16 @@
         },
         {
             "name": "php-di/invoker",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-DI/Invoker.git",
-                "reference": "67ad285484a1f783ba2ce26866b5d48f171d3abf"
+                "reference": "7b2d2cd0e40b1583fe6601fb343a280c378669c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-DI/Invoker/zipball/67ad285484a1f783ba2ce26866b5d48f171d3abf",
-                "reference": "67ad285484a1f783ba2ce26866b5d48f171d3abf",
+                "url": "https://api.github.com/repos/PHP-DI/Invoker/zipball/7b2d2cd0e40b1583fe6601fb343a280c378669c9",
+                "reference": "7b2d2cd0e40b1583fe6601fb343a280c378669c9",
                 "shasum": ""
             },
             "require": {
@@ -75,7 +75,7 @@
                 "invoke",
                 "invoker"
             ],
-            "time": "2015-09-12 09:14:11"
+            "time": "2015-09-17 09:57:25"
         },
         {
             "name": "php-di/php-di",

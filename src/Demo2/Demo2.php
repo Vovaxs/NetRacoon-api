@@ -6,10 +6,17 @@
  * Time: 22:27
  */
 
-namespace NetRacoonApi\Demo2;
+namespace NetRacoon\NetRacoonApi\Demo2;
 
 
 class Demo2
 {
-
+    public function execute()
+    {
+        return "
+        <html>
+            <body><h1>Hello World!</h1></body>
+        </html>
+        ";
+    }
 }

@@ -6,14 +6,14 @@
  * Time: 20:36
  */
 
+namespace NetRacoon\NetRacoonApi\Demo;
+
+use NetRacoon\NetRacoonApi\Demo2\Demo2;
 
 class Demo
 {
-    public function execute(){
-        return "
-        <html>
-            <body><h1>Hello World!</h1></body>
-        </html>
-        ";
+    public function execute()
+    {
+        return ( new Demo2() )->execute();
     }
 }
